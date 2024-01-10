@@ -12,6 +12,11 @@ body {
     margin-left: 20px;
   }
 
+  q {
+    color: rgb(246, 82, 57);
+    margin-left: 20px;
+  }
+
   {
     background-image: url("pexels-pixabay-531880.jpg");
   }
