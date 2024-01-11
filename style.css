@@ -1,7 +1,5 @@
 body {
     background-color: rgb(106, 174, 226);
-    background-image: url(images/photo.jpg);
-    background-repeat: no-repeat;
     font-size: 18px;
     font-family: "Helvetica";
     font-weight: 100;
@@ -13,7 +11,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("images/photo.jpg");
+  background-image: url("images/pexels-pixabay-531880.jpg");
 
   /* Set a specific height */
   min-height: 500px;
