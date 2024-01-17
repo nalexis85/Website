@@ -42,16 +42,24 @@ q {
     margin-left: 60px;
   }
 a {
-  & a:link {
-    color: rgb(255, 255, 255);
-  }
-  & a:visited {
-    color: rgb(255, 157, 0);
-  }
-  & a:hover {
-    color: rgb(0, 55, 255);
-  }
-  & a:active {
-    color: rgb(0, 255, 30);
-  }
+
+}
+  /* unvisited link */
+& a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+& a:visited {
+  color: rgb(255, 157, 0);
+}
+
+/* mouse over link */
+& a:hover {
+  color: rgb(0, 55, 255);
+}
+
+/* selected link */
+& a:active {
+  color: rgb(0, 255, 30);
 }
