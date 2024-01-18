@@ -11,13 +11,8 @@ body {
   }
 
 .parallax {
-  /* The image used */
   background-image: url("images/pexels-pixabay-531880.jpg");
-
-  /* Set a specific height */
   min-height: 500px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,9 +84,33 @@ q {
 .navbar a:hover {
   background-color: hsl(0, 0%, 25%);
   font-weight: bold;
+  border-radius: 15%;
+  border: #ffffff;
+  border-style: double;
 }
 
 .navbar li {
   float: left;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px hsl(0, 0%, 50%);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical
+}
+
+input[type=submit]:hover {
+  color: hsl(0, 0%, 75%);
+  background-color: hsl(0, 0%, 25%);
+}
+.container {
+  margin: 50px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 10%);
+  padding: 20px;
+}
