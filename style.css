@@ -35,6 +35,7 @@ h1{
   padding-top: 2.5em;
   margin: 0px;
   overflow: hidden;
+  transition: 1s;
 }
 
 h2 {
@@ -44,6 +45,14 @@ h2 {
     color: rgb(255, 255, 255);
     margin-left: 40px;
   }
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: greenyellow;
+}
 
 p {
     color: rgb(255, 255, 255);
@@ -85,3 +94,4 @@ q {
 .navbar li {
   float: left;
 }
+
