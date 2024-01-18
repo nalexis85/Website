@@ -26,9 +26,15 @@ body {
 
 h1{
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  background-color: hsl(0, 0%, 10%);
+  padding: 0px;
+  padding-top: 2.5em;
+  margin: 0px;
+  overflow: hidden;
 }
 
 h2 {
@@ -46,15 +52,21 @@ p {
 
 q {
     color: rgb(255, 255, 255);
-    margin-left: 60px;
+    margin: 60px;
   }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
   
 .navbar ul {
   list-style-type: none;
   background-color: hsl(0, 0%, 10%);
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  overflow:auto;
   }
 
 .navbar a {
